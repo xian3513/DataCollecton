@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Hardware" syncable="YES">
+        <attribute name="identifierForVendor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="macAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="osVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalDiskSpace" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Network" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ui" syncable="YES">
+        <attribute name="enterTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Hardware" positionX="-9" positionY="36" width="128" height="120"/>
+        <element name="Network" positionX="-9" positionY="72" width="128" height="105"/>
+        <element name="Ui" positionX="0" positionY="90" width="128" height="105"/>
+    </elements>
 </model>

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-
+#import "DataCollectionController.h"
+#import "UIDevice-Hardware.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

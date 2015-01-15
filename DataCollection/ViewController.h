@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)readButton:(id)sender;
+- (IBAction)writeButton:(id)sender;
+- (IBAction)deleteButton:(id)sender;
+- (IBAction)writeData:(id)sender;
 
+- (IBAction)deleteData:(id)sender;
 
 @end
 
